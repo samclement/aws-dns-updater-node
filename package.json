@@ -1,0 +1,27 @@
+{
+  "name": "aws-dns-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sam Clement",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.167.0",
+    "axios": "^0.17.1",
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-recommended": "^2.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.9.1"
+  }
+}
