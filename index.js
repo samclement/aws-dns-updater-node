@@ -14,7 +14,8 @@ try {
   console.log(e)
 }
 
-if (HostedZoneId === '') throw new Error('No `id` provided')
+if (HostedZoneId === '')
+  throw new Error('Environment variable `HOST_ZONE_ID` not provided')
 
 pipeline()
 setInterval(pipeline, interval * 60 * 1000)
