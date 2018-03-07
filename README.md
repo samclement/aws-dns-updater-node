@@ -38,6 +38,7 @@ Debug - `DEBUG=aws-dns-updater HOST_ZONE_ID=<HOST_ZONE_ID> npm start`
 ```
 > build -t <my_tag> .
 > docker run -d --name <container_name> \  
+    --restart=always \
     -v ${PWD}/records.json:/www/records.json \
     -e HOST_ZONE_ID=<HOST_ZONE_ID> \   
     -e AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> \  
