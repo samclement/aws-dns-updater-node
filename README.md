@@ -25,7 +25,7 @@ Create a `records.json` that includes the records to be updated, for example:
 
 Pre-requisite - make sure you have AWS CLI installed and configured
 
-Install - `npm i`  
+Install - `yarn install`  
 Configure - `echo [{"name":"example.com","type":"A"}] > records.json`  
 Run - `HOST_ZONE_ID=<HOST_ZONE_ID> npm start`  
 

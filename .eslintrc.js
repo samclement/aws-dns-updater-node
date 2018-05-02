@@ -2,6 +2,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 7
   },
+  env: {
+    node: true
+  },
   plugins: ['prettier'],
   rules: {
     'import/no-commonjs': 0,
