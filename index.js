@@ -34,7 +34,7 @@ function getMyIp() {
   debug(`get ip address`)
   return axios({
     method: 'GET',
-    url: 'http://ifconfig.co/ip',
+    url: 'https://ifconfig.co/ip',
     headers: { 'User-Agent': `axios-${Math.random()}` }
   })
 }
